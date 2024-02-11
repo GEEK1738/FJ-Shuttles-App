@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VehicleActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card"
+        app:cardElevation="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@color/yellow"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Choose a vehicle"
+                    android:textColor="@color/black"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_below="@id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/sign"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Select Vehicle of your choice:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/quantumButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantum(15 seater)"
+            android:textSize="19sp"
+            android:layout_marginTop="50dp"/>
+
+        <RadioButton
+            android:id="@+id/rumionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rumion(7 seater)"
+            android:textSize="19sp"
+            android:layout_marginTop="100dp"/>
+
+        <RadioButton
+            android:id="@+id/corollaButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Corolla quest(5 seater)"
+            android:textSize="19sp"
+            android:layout_marginTop="150dp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/payMethod"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Select Payment Method:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="300dp"/>
+
+    <RadioButton
+        android:id="@+id/cashButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cash"
+        android:textSize="19sp"
+        android:layout_marginTop="350dp"/>
+
+    <RadioButton
+        android:id="@+id/creditButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit on Pick-Up"
+        android:textSize="19sp"
+        android:layout_marginTop="400dp"/>
+
+    <Button
+        android:id="@+id/finishbutton"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="false"
+        android:text="FINISH"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="500dp"/>
+
+</RelativeLayout>

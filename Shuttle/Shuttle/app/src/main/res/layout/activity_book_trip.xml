@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BookTripActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Enter ride details"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/pudTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign"
+        android:layout_marginTop="6dp"
+        android:minHeight="48dp"
+        android:text="Pick-Up Date:"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/dateBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/calendar"
+        android:contentDescription="date"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/putTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pudTxt"
+        android:layout_marginTop="27dp"
+        android:minHeight="48dp"
+        android:text="Pick-Up Time:"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+
+    <ImageButton
+
+        android:id="@+id/timeBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/dateBtn"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/time"
+        android:contentDescription="time"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/pulTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/putTxt"
+        android:layout_marginTop="20dp"
+        android:minHeight="48dp"
+        android:text="Drop-off Location:"
+        android:textSize="18dp"
+        android:textStyle="italic" />
+
+    <ImageButton
+
+        android:id="@+id/locBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_below="@+id/timeBtn"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginRight="47dp"
+        android:background="@drawable/location"
+        android:contentDescription="location"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/donebtn"
+        android:layout_below="@id/pulTxt"
+        android:layout_marginTop="30sp"
+        android:layout_width="314dp"
+        android:layout_height="48dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corner_button"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Done" />
+</RelativeLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1076539019202",
+    "project_id": "fjshuttles2",
+    "storage_bucket": "fjshuttles2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076539019202:android:9abd721fd6ab73f0fbd05b",
+        "android_client_info": {
+          "package_name": "com.example.fj"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6NXJVVD1zlIy3x7UfMa8l9TrWBs-6_gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076539019202:android:226a5ed5ad85225cfbd05b",
+        "android_client_info": {
+          "package_name": "com.example.shuttle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6NXJVVD1zlIy3x7UfMa8l9TrWBs-6_gU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

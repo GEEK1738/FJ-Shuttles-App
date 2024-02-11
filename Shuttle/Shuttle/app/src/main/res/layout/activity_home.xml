@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="206dp"
+        android:layout_height="58dp"
+        android:text="About Us"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="48dp" />
+
+    <TextView
+        android:layout_width="409dp"
+        android:layout_height="275dp"
+        android:text="Welcome to FJ Shuttles, a premier
+shuttle and cab service operating in
+the beautiful city of Cape Town. Our
+company is committed to providing
+safe, reliable, and efficient
+transportation to our clients, whether
+you need a ride to the airport, a
+special event, or simply a night out on
+the town."
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <Button
+        android:id="@+id/getButton"
+        android:layout_width="285dp"
+        android:layout_height="59dp"
+        android:text="Get Started"
+        android:textColor="@color/black"
+        app:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+</LinearLayout>
